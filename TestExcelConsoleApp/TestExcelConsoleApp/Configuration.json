@@ -1,0 +1,48 @@
+{
+  "InputFileNames": [
+    "overview.xslx",
+    "Resources.xslx"
+  ],
+
+  "OutputFileStructure": {
+    "OutputFileName": "overview.xslx",
+    "SheetsNames": [
+      "BA overview",
+      "Charts",
+      "Dictionaries"
+    ],
+    "BA overview": [
+      "Employee & rVision link",
+      "Primary Skill",
+      "Skill Set"
+    ],
+    "Charts": [
+      "Location",
+      "Employees"
+    ],
+    "Dictionaries": [
+      "Seniority",
+      "Primary Skill"
+    ]
+  },
+  "OutputFileFullfill": {
+    "BA Overview": {
+      "Employee & rVision link": [
+        "ResourcesReport.HR Reports.Employee",
+        "Input.xlsx.SomeSheet.SomeRow"
+      ],
+      "Primary Skill": [
+        "ResourcesReport.HR Reports.PrimarySkill",
+        "Input.xlsx.SomeSheet.SomeRow"
+      ]
+    },
+    "Charts": {
+      "Location": [
+        ""
+      ],
+      "Employees": [
+        ""
+      ]
+    }
+  }
+}
